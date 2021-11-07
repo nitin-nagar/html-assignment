@@ -1,0 +1,252 @@
+:root {
+  --color-orng: #ff6800;
+}
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .container .nav-item {
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: #001525;
+}
+
+.showcase-info {
+  top: 140px;
+  left: 82px;
+  max-width: 50%;
+}
+.showcase-info-heading {
+  font-family: Nunito;
+  font-size: 48px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #fff;
+}
+.showcase-info-para {
+  width: 580px;
+  height: 56px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #fff;
+  margin: 25px 0;
+}
+.showcase-info-form {
+  width: 95%;
+  margin: 50px 0;
+}
+.showcase-info-form button {
+  background-color: var(--color-orng);
+}
+
+.showcase-info-search {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #fff;
+}
+.showcase-info-search i {
+  background-color: #fff;
+  color: var(--color-orng);
+}
+.showcase-info #or-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  opacity: 0.2;
+  border-radius: 50%;
+  margin: 10px;
+  color: #fff;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.features-heading h1 {
+  margin-top: 80px;
+  font-family: Nunito;
+  font-size: 37px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #001525;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+.card-img-top {
+  width: 50%;
+}
+.card-img-overlay {
+  width: 30%;
+  top: 50px;
+  left: 115px;
+}
+.card-body {
+  padding: 0;
+}
+.card-body .card-title {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #001525;
+  white-space: nowrap;
+}
+.card-body .card-text {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  color: #647a91;
+}
+.card-body .card-link {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a6adc;
+  text-decoration: none;
+}
+.arrow-right {
+  border: solid #3a6adc;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+#testimonials {
+  background-color: #f7f7f7;
+}
+.testimonial {
+  font-family: Nunito;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.62;
+  letter-spacing: normal;
+  position: relative;
+}
+.testimonial h1 {
+  font-weight: 800;
+  font-size: 37px;
+  color: #001525;
+}
+.testimonial p {
+  width: 75%;
+  font-size: 20px;
+  color: #647a91;
+}
+.testimonial h5 {
+  margin-top: 70px;
+  font-size: 24px;
+  font-weight: 800;
+
+  color: #001525;
+}
+#group-background {
+  position: absolute;
+  right: 10%;
+}
+/* #group-background #reading-girl {
+  z-index: 2;
+  position: relative;
+}  */
+#group-background #three-line {
+  z-index: 3;
+  width: 20%;
+  /* position: absolute; */
+}
+
+.footer {
+  background: #142a5e;
+  padding: 4rem;
+}
+.footer .footer-top {
+  color: white;
+}
+.footer .footer-info {
+  color: white;
+}
+.footer .footer-info img {
+  width: 25%;
+}
+.footer .footer-info p {
+  width: 80%;
+}
+.footer .footer-info .social-logo {
+  display: flex;
+}
+.footer .footer-info .social-logo .logo {
+  background: #2c4274;
+  width: 2rem;
+  margin: 0.5rem 0.5rem 1rem 0;
+  padding: 5px;
+}
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer ul li {
+  padding: 0.5rem 0;
+}
+.footer .footer-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+hr {
+  color: white;
+}
+.footer .footer-bottom {
+  color: wheat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-bottom p {
+  margin: 25px 0 0 0;
+  padding: 0;
+}

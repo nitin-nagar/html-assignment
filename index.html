@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Assignment 8,9 and 10</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+
+                <!-- <span class="navbar-toggler-icon float-start"></span> -->
+                <a class="navbar-brand p-0 m-0" href="#">
+                    <img width="150px" src="img/buddle-logo.png" alt="">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex justify-content-center">
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Find a Tutor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">How it Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Study Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Discussion forum</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex flex-row-reverse bd-highlight">
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <button class="btn btn-outline-primary mx-2">Sign In</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-primary">Sign Out</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <div id="showcase">
+            <img class="img-fluid showcase-img position-relative" src="img/head-poster.png" alt="">
+            <div class="container showcase-info position-absolute">
+                <h1 class="showcase-info-heading ">Build Skills With Experts Any Time,
+                    Anywhere
+                </h1>
+                <p class="showcase-info-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea porro nemo
+                    accusantium repudiandae
+                </p>
+                <div class="input-group mb-3 showcase-info-form ">
+                    <div class="showcase-info-search">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Find a peer tutor"
+                        aria-label="Find a peer tutor" aria-describedby="button-addon2">
+                    <button class="btn btn-secondary" type="button" id="button-addon2">Search Now</button>
+                    <div id="or-container">OR</div>
+                    <button class="btn btn-secondary" type="button">Become a Tutor</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="features">
+        <div class="features-heading">
+            <h1>Features</h1>
+        </div>
+        <div class="container my-lg-5">
+            <div class="row row-cols-1 row-cols-md-4 ">
+                <div class="col ">
+                    <div class="card h-100 center py-4">
+                        <img src="img/path.png" class="card-img-top" alt="...">
+                        <img src="img/teacher.png" class="card-img-overlay" alt="...">
+                        <div class="card-body center">
+                            <h5 class="card-title">Amazing Peer Tutors</h5>
+                            <p class="card-text">Hand picked peer tutors that have taken your classes, had your
+                                teachers, and know how to help you succeed</p>
+                            <a href="#" class="card-link">View Detail <i class="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card h-100 center py-4">
+                        <img src="img/path.png" class="card-img-top" alt="...">
+                        <img src="img/conversation.png " class=" card-img-overlay" alt="...">
+                        <div class="card-body center">
+                            <h5 class="card-title">1 On 1 Sessions</h5>
+                            <p class="card-text">Personalized 1 on 1 sessions wherever and whenever in an online
+                                learning space or in-person</p>
+                            <a href="#" class="card-link">View Detail <i class="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card h-100 center py-4">
+
+
+                        <img src="img/path.png" class="card-img-top" alt="...">
+                        <img src="img/money.png" class="card-img-overlay" alt="...">
+
+                        <div class="card-body center">
+                            <h5 class="card-title">It's Affordable</h5>
+                            <p class="card-text">Many Peer Tutors are free because they’re university-funded or
+                                volunteers. Even private tutors…</p>
+                            <a href="#" class="card-link">View Detail <i class="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card h-100 center py-4">
+                        <img src="img/path.png" class="card-img-top" alt="...">
+                        <img src="img/connecting-people.png" class="card-img-overlay" alt="...">
+                        <div class="card-body center">
+                            <h5 class="card-title">Pay It Forward</h5>
+                            <p class="card-text">Feeling Wise? Get help in one subject and tutor your peers in another.
+                                The sensei and...</p>
+                            <a href="#" class="card-link">View Detail <i class="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="container my-lg-5 py-lg-5">
+            <div class="row testimonial">
+                <div class="col-6">
+                    <h1>Let's Hear From Our Learners</h1>
+                    <p>I am a business statistics student and have been using this plateform to cover my weak topics.
+                        It’s totally worth it
+                    </p>
+                    <h5>Clarie Alexander</h5>
+                    <h6><span>Student</span> @University Of Maryland, College Park</h6>
+                </div>
+                <div class="col-6">
+                    <img id="reading-girl" class="img-fluid" src="img/reading-girl.png" alt="">
+
+                </div>
+                <div id="group-background">
+
+                    <img id="three-line" src="img/group-background.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="features-heading">
+            <h1>Features</h1>
+        </div>
+        <div class="container my-lg-5">
+            <div class="row row-cols-1 row-cols-md-4 ">
+                <div class="col ">
+                    <div class="card h-100 center py-4">
+                        <img src="img/path.png" class="card-img-top" alt="...">
+                        <img src="img/teacher.png" class="card-img-overlay" alt="...">
+                        <div class="card-body center">
+                            <h5 class="card-title">Amazing Peer Tutors</h5>
+                            <p class="card-text">Hand picked peer tutors that have taken your classes, had your
+                                teachers, and know how to help you succeed</p>
+                            <a href="#" class="card-link">View Detail <i class="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card h-100 center py-4">
+                        <img src="img/path.png" class="card-img-top" alt="...">
+                        <img src="img/conversation.png " class=" card-img-overlay" alt="...">
+                        <div class="card-body center">
+                            <h5 class="card-title">1 On 1 Sessions</h5>
+                            <p class="card-text">Personalized 1 on 1 sessions wherever and whenever in an online
+                                learning space or in-person</p>
+                            <a href="#" class="card-link">View Detail <i class="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card h-100 center py-4">
+
+
+                        <img src="img/path.png" class="card-img-top" alt="...">
+                        <img src="img/money.png" class="card-img-overlay" alt="...">
+
+                        <div class="card-body center">
+                            <h5 class="card-title">It's Affordable</h5>
+                            <p class="card-text">Many Peer Tutors are free because they’re university-funded or
+                                volunteers. Even private tutors…</p>
+                            <a href="#" class="card-link">View Detail <i class="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card h-100 center py-4">
+                        <img src="img/path.png" class="card-img-top" alt="...">
+                        <img src="img/connecting-people.png" class="card-img-overlay" alt="...">
+                        <div class="card-body center">
+                            <h5 class="card-title">Pay It Forward</h5>
+                            <p class="card-text">Feeling Wise? Get help in one subject and tutor your peers in another.
+                                The sensei and...</p>
+                            <a href="#" class="card-link">View Detail <i class="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid footer">
+            <div class="row footer-top">
+                <div class="col-5 footer-info">
+                    <img src="img/buddle-logo1.png" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a sem sit amet tortor vehicula
+                        auctor at ac urna. Integer nec tortor vel mi egestas finibus nec non urna. Etiam a dui sit amet
+                        ligula aucto.
+                    </p>
+                    <div class="social-logo">
+                        <div class="logo center">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="logo center">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="logo center">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="logo center">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 footer-menu">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="#">Find a Tutor</a></li>
+                        <li><a href="#">How it Works</a></li>
+                        <li><a href="#">Study Groups</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 footer-address">
+                    <h3>Address</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 3548 Quadra Street Golden Victoria Road, New York, USA
+                        </li>
+                        <li><i class="fas fa-phone-volume"></i> +1 (123) 456 7890</li>
+                        <li><i class="fas fa-envelope"></i> hello@buddle.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p>&copy; 2021 Buddle is Proucly Powered by Lorem ipsum</p>
+                <p>Sitemap | Privacy Policy | Terms & Conditions</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
