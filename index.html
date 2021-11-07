@@ -25,8 +25,42 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
+                <a class="navbar-brand p-0 m-0" href="#">
+                    <img width="150px" src="img/buddle-logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav  ms-auto me-0 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Find a Tutor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">How it Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Study Groups</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Discussion forum</a>
+                        </li>
 
-                <!-- <span class="navbar-toggler-icon float-start"></span> -->
+                    </ul>
+                    <div class="d-flex  ms-auto me-0">
+
+                        <button class="btn btn-outline-primary me-2" type="submit">Sign in</button>
+                        <button class="btn btn-primary" type="submit">Sign Out</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+
+                
                 <a class="navbar-brand p-0 m-0" href="#">
                     <img width="150px" src="img/buddle-logo.png" alt="">
                 </a>
@@ -69,8 +103,30 @@
                 </div>
 
             </div>
-        </nav>
-        <div id="showcase">
+        </nav> -->
+        <div class="showcase">
+            <!-- <div class="showcase-img"><img class="img-fluid top-0" src="img/head-poster.png" alt=""></div> -->
+            <div class="showcase-content">
+                <h1 class="showcase-heading mb-2">Build Skills With Experts Any Time, Anywhere</h1>
+                <p class="showcase-desc mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus
+                    finibus pretium. Donec sed tellus nisi. Sed in tortor metus.
+                </p>
+
+                <div class="showcase-form mb-3 center flex-row">
+                    <div class="input-group ">
+
+                        <span class="input-group-text" id="addon-wrapping"><i class="fas fa-search"></i></span>
+                        <input type="text" class="form-control" placeholder="Find a peer Tutor"
+                            aria-describedby="button-addon2">
+                        <button class="btn" type="button" id="button-addon2">Search Now</button>
+                    </div>
+                    <div id="or-container">OR</div>
+                    <button class="btn btn-tutor" type="button" id="button-addon2">Became a Tutor</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- <div id="showcase">
             <img class="img-fluid showcase-img position-relative" src="img/head-poster.png" alt="">
             <div class="container showcase-info position-absolute">
                 <h1 class="showcase-info-heading ">Build Skills With Experts Any Time,
@@ -90,19 +146,18 @@
                     <button class="btn btn-secondary" type="button">Become a Tutor</button>
                 </div>
             </div>
-        </div>
+        </div> -->
     </header>
     <section class="features">
         <div class="features-heading">
             <h1>Features</h1>
         </div>
-        <div class="container my-lg-5">
+        <div class="container mb-5">
             <div class="row row-cols-1 row-cols-md-4 ">
-                <div class="col ">
-                    <div class="card h-100 center py-4">
-                        <img src="img/path.png" class="card-img-top" alt="...">
-                        <img src="img/teacher.png" class="card-img-overlay" alt="...">
-                        <div class="card-body center">
+                <div class="col-12 col-md-6 col-lg-3 mb-2 ">
+                    <div class="card h-100 center py-4 ">
+                        <img src="img/feature-teacher.png" class="card-img-top" alt="...">
+                        <div class="card-body center px-3">
                             <h5 class="card-title">Amazing Peer Tutors</h5>
                             <p class="card-text">Hand picked peer tutors that have taken your classes, had your
                                 teachers, and know how to help you succeed</p>
@@ -110,10 +165,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col ">
-                    <div class="card h-100 center py-4">
-                        <img src="img/path.png" class="card-img-top" alt="...">
-                        <img src="img/conversation.png " class=" card-img-overlay" alt="...">
+                <div class="col-12 col-md-6 col-lg-3 mb-2">
+                    <div class="card h-100 center  py-4 px-3">
+                        <img src="img/feature-conversation.png " class=" card-img-top" alt="...">
                         <div class="card-body center">
                             <h5 class="card-title">1 On 1 Sessions</h5>
                             <p class="card-text">Personalized 1 on 1 sessions wherever and whenever in an online
@@ -122,12 +176,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col ">
-                    <div class="card h-100 center py-4">
+                <div class="col-12 col-md-6 col-lg-3 mb-2">
+                    <div class="card h-100 center py-4 px-3">
 
 
-                        <img src="img/path.png" class="card-img-top" alt="...">
-                        <img src="img/money.png" class="card-img-overlay" alt="...">
+                        <img src="img/feature-money.png" class="card-img-top" alt="...">
 
                         <div class="card-body center">
                             <h5 class="card-title">It's Affordable</h5>
@@ -137,10 +190,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col ">
-                    <div class="card h-100 center py-4">
-                        <img src="img/path.png" class="card-img-top" alt="...">
-                        <img src="img/connecting-people.png" class="card-img-overlay" alt="...">
+                <div class="col-12  col-md-6 col-lg-3 mb-2">
+                    <div class="card h-100 center py-4 px-3">
+                        <img src="img/feature-connecting.png" class="card-img-top" alt="...">
                         <div class="card-body center">
                             <h5 class="card-title">Pay It Forward</h5>
                             <p class="card-text">Feeling Wise? Get help in one subject and tutor your peers in another.
@@ -152,25 +204,23 @@
             </div>
         </div>
     </section>
-    <section id="testimonials">
+    <section class="testimonials ">
         <div class="container my-lg-5 py-lg-5">
             <div class="row testimonial">
-                <div class="col-6">
-                    <h1>Let's Hear From Our Learners</h1>
-                    <p>I am a business statistics student and have been using this plateform to cover my weak topics.
+                <div class="col-12 col-lg-6">
+                    <h1 class="testimonial-heading">Let's Hear From Our Learners</h1>
+                    <p class="testimonial-desc">I am a business statistics student and have been using this plateform to
+                        cover my weak topics.
                         It’s totally worth it
                     </p>
                     <h5>Clarie Alexander</h5>
                     <h6><span>Student</span> @University Of Maryland, College Park</h6>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-lg-6 testimonial-video mb-5">
                     <img id="reading-girl" class="img-fluid" src="img/reading-girl.png" alt="">
 
                 </div>
-                <div id="group-background">
 
-                    <img id="three-line" src="img/group-background.png" alt="">
-                </div>
             </div>
         </div>
     </section>
@@ -178,13 +228,12 @@
         <div class="features-heading">
             <h1>Features</h1>
         </div>
-        <div class="container my-lg-5">
+        <div class="container mb-5">
             <div class="row row-cols-1 row-cols-md-4 ">
-                <div class="col ">
-                    <div class="card h-100 center py-4">
-                        <img src="img/path.png" class="card-img-top" alt="...">
-                        <img src="img/teacher.png" class="card-img-overlay" alt="...">
-                        <div class="card-body center">
+                <div class="col-12 col-md-6 col-lg-3 mb-2 ">
+                    <div class="card h-100 center py-4 ">
+                        <img src="img/feature-teacher.png" class="card-img-top" alt="...">
+                        <div class="card-body center px-3">
                             <h5 class="card-title">Amazing Peer Tutors</h5>
                             <p class="card-text">Hand picked peer tutors that have taken your classes, had your
                                 teachers, and know how to help you succeed</p>
@@ -192,10 +241,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col ">
-                    <div class="card h-100 center py-4">
-                        <img src="img/path.png" class="card-img-top" alt="...">
-                        <img src="img/conversation.png " class=" card-img-overlay" alt="...">
+                <div class="col-12 col-md-6 col-lg-3 mb-2">
+                    <div class="card h-100 center  py-4 px-3">
+                        <img src="img/feature-conversation.png " class=" card-img-top" alt="...">
                         <div class="card-body center">
                             <h5 class="card-title">1 On 1 Sessions</h5>
                             <p class="card-text">Personalized 1 on 1 sessions wherever and whenever in an online
@@ -204,12 +252,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col ">
-                    <div class="card h-100 center py-4">
+                <div class="col-12 col-md-6 col-lg-3 mb-2">
+                    <div class="card h-100 center py-4 px-3">
 
 
-                        <img src="img/path.png" class="card-img-top" alt="...">
-                        <img src="img/money.png" class="card-img-overlay" alt="...">
+                        <img src="img/feature-money.png" class="card-img-top" alt="...">
 
                         <div class="card-body center">
                             <h5 class="card-title">It's Affordable</h5>
@@ -219,10 +266,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col ">
-                    <div class="card h-100 center py-4">
-                        <img src="img/path.png" class="card-img-top" alt="...">
-                        <img src="img/connecting-people.png" class="card-img-overlay" alt="...">
+                <div class="col-12  col-md-6 col-lg-3 mb-2">
+                    <div class="card h-100 center py-4 px-3">
+                        <img src="img/feature-connecting.png" class="card-img-top" alt="...">
                         <div class="card-body center">
                             <h5 class="card-title">Pay It Forward</h5>
                             <p class="card-text">Feeling Wise? Get help in one subject and tutor your peers in another.
@@ -237,7 +283,7 @@
     <footer>
         <div class="container-fluid footer">
             <div class="row footer-top">
-                <div class="col-5 footer-info">
+                <div class="col-lg-5 footer-info">
                     <img src="img/buddle-logo1.png" alt="">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a sem sit amet tortor vehicula
@@ -259,7 +305,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 footer-menu">
+                <div class="col-lg-3 footer-menu">
                     <h3>Explore</h3>
                     <ul>
                         <li><a href="#">Find a Tutor</a></li>
@@ -267,7 +313,7 @@
                         <li><a href="#">Study Groups</a></li>
                     </ul>
                 </div>
-                <div class="col-4 footer-address">
+                <div class="col-lg-4 footer-address">
                     <h3>Address</h3>
                     <ul>
                         <li><i class="fas fa-map-marker-alt"></i> 3548 Quadra Street Golden Victoria Road, New York, USA
